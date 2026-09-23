@@ -30,7 +30,7 @@ Enquiry: ${message || 'No additional details provided'}`
   return (
     <>
       <header className="navbar">
-        <div className="brand"><img src="/triple-s-logo.jpg" alt="Triple S Safety Solutions" className="brand-logo" /></div>
+        <div className="brand"><img src={`${import.meta.env.BASE_URL}triple-s-logo.jpg`} alt="Triple S Safety Solutions" className="brand-logo" /></div>
 
         <nav>
           <a href="#home">Home</a>
@@ -73,7 +73,7 @@ Enquiry: ${message || 'No additional details provided'}`
           </div>
 
           <div className="hero-card">
-            <div className="safety-logo"><img src="/triple-s-logo.jpg" alt="Triple S Safety Solutions" /></div>
+            <div className="safety-logo"><img src={`${import.meta.env.BASE_URL}triple-s-logo.jpg`} alt="Triple S Safety Solutions" /></div>
 
             <h3>Safety Starts Here</h3>
 
