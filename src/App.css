@@ -1,0 +1,347 @@
+/* ========================================
+   ABOUT SECTION
+======================================== */
+
+.about-section {
+  padding: 95px 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.section-label {
+  margin-bottom: 14px;
+  color: #c1121f;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-content h2 {
+  margin-bottom: 22px;
+  color: #202124;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
+.about-content > p:not(.section-label) {
+  margin-bottom: 18px;
+  color: #62676f;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.about-content .primary-btn {
+  margin-top: 15px;
+}
+
+.about-panel {
+  padding: 25px 40px;
+  border-radius: 14px;
+  background: #202124;
+}
+
+.about-stat {
+  padding: 25px 0;
+  border-bottom: 1px solid #3d3f42;
+}
+
+.about-stat:last-child {
+  border-bottom: none;
+}
+
+.about-stat strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.about-stat span {
+  color: #b9bec6;
+}
+
+/* ========================================
+   WHY CHOOSE US
+======================================== */
+
+.why-section {
+  padding: 95px 7%;
+  background: #ffffff;
+}
+
+.why-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.why-grid article {
+  padding: 35px 30px;
+  border-top: 4px solid #c1121f;
+  background: #f7f7f7;
+}
+
+.why-grid article > span {
+  display: block;
+  margin-bottom: 25px;
+  color: #c1121f;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.why-grid h3 {
+  margin-bottom: 14px;
+  color: #202124;
+  font-size: 22px;
+}
+
+.why-grid p {
+  color: #666b73;
+  line-height: 1.7;
+}
+
+/* ========================================
+   QUOTE SECTION
+======================================== */
+
+.quote-section {
+  padding: 95px 7%;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 80px;
+  background: #202124;
+}
+
+.quote-copy h2 {
+  margin-bottom: 22px;
+  color: #ffffff;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
+.quote-copy > p:not(.section-label) {
+  color: #c5c9cf;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.quote-contact {
+  margin-top: 35px;
+  padding: 22px;
+  border-left: 4px solid #c1121f;
+  background: #292b2e;
+}
+
+.quote-contact strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.quote-contact span {
+  display: block;
+  color: #b9bec6;
+  line-height: 1.6;
+}
+
+.quote-form {
+  padding: 40px;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #282828;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #d7d9dd;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #202124;
+  font: inherit;
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #c1121f;
+}
+
+.form-submit {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #c1121f;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background: #9f0e19;
+}
+
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+.contact-section {
+  padding: 75px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background: #f7f7f7;
+}
+
+.contact-section h2 {
+  color: #202124;
+  font-size: 42px;
+}
+
+.contact-message {
+  max-width: 520px;
+}
+
+.contact-message p {
+  margin-bottom: 25px;
+  color: #646970;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.footer {
+  padding: 60px 7% 25px;
+  background: #151618;
+  color: #ffffff;
+}
+
+.footer-brand h2 {
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.footer-brand span {
+  display: block;
+  margin-top: 3px;
+  color: #c1121f;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer > p {
+  margin: 25px 0;
+  color: #aeb3ba;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #c1121f;
+}
+
+.footer-bottom {
+  margin-top: 45px;
+  padding-top: 22px;
+  border-top: 1px solid #33363a;
+  color: #858a91;
+  font-size: 13px;
+}
+
+/* ========================================
+   LOWER SECTION RESPONSIVE
+======================================== */
+
+@media (max-width: 900px) {
+  .about-section,
+  .quote-section {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-section,
+  .why-section,
+  .quote-section,
+  .contact-section {
+    padding: 65px 5%;
+  }
+
+  .about-content h2,
+  .quote-copy h2,
+  .contact-section h2 {
+    font-size: 32px;
+  }
+
+  .about-panel,
+  .quote-form {
+    padding: 28px 22px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
